@@ -1,25 +1,19 @@
 [![GitHub version](https://badge.fury.io/gh/ghost1372%2FMzip-Android.svg)](https://badge.fury.io/gh/ghost1372%2FMzip-Android)
 
 # Mzip-Android
-An Android compress and extract library support popular compression format such as rar, zip, tar, lzma
+An Android compress and extract library support popular compression format such as rar, zip
 that support android api >= 14 (may work >=9 not tested) also tested on android 7.1.1
 <br>
 # ABOUT The LIBRARY....
 <br>
 
-The simple and useful library for android app developers to read/write archives like zip , rar , tar , tar.gz, tar.bz2.
+The simple and useful library for android app developers to read/write archives like zip , rar.
 I needed compressing files for a project, Because I could not find a good and thorough library I wrote a nearly complete library.
 Other open source projects have been used to write this library.
 <br>
 
 # Supported formats
 .zip
-.tar
-.tar.gz & .tgz
-.tar.bz2 & .tbz2
-.tar.xz & .txz
-.tar.lz4 & .tlz4
-.tar.sz & .tsz
 .rar (extract only ,may you can find a method to create look ir.mahdi.mzip.rar classes)
 <br>
 
