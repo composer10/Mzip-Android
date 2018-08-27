@@ -74,10 +74,10 @@ zipArchive.unzip(targetPath,destinationPath,password);
 
 //Example
 ZipArchive zipArchive = new ZipArchive();
-zipArchive.unzip("/sdcard/file.zip","/sdcard/folder,"");
+zipArchive.unzip("/sdcard/file.zip","/sdcard/folder","");
 
 //if your file protected with password
-zipArchive.unzip("/sdcard/file.zip","/sdcard/folder,"123456 or anything you want");
+zipArchive.unzip("/sdcard/file.zip","/sdcard/folder","123456 or anything you want");
 ```
 <br>
 
