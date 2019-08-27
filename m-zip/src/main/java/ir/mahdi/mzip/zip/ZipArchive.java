@@ -6,8 +6,6 @@ import net.lingala.zip4j.util.Zip4jConstants;
 
 import java.io.File;
 
-import ir.mahdi.mzip.zip.EdaException;
-
 /**
  * Created by Mahdi on 8/29/2017.
  */
@@ -39,7 +37,7 @@ public class ZipArchive {
             e.printStackTrace();
         }
     }
-    public static void unzip(String targetZipFilePath, String destinationFolderPath, String password) throws EdaException, ZipException {
+    public static void unzip(String targetZipFilePath, String destinationFolderPath, String password) throws Exception, ZipException {
             ZipFile zipFile = new ZipFile(targetZipFilePath);
             if (zipFile.isEncrypted()) {
                 zipFile.setPassword(password);
