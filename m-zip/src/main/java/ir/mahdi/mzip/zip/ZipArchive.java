@@ -39,7 +39,7 @@ public class ZipArchive {
             e.printStackTrace();
         }
     }
-    public static void unzip(String targetZipFilePath, String destinationFolderPath, String password) throws EdaException {
+    public static void unzip(String targetZipFilePath, String destinationFolderPath, String password) throws EdaException, ZipException {
             ZipFile zipFile = new ZipFile(targetZipFilePath);
             if (zipFile.isEncrypted()) {
                 zipFile.setPassword(password);
