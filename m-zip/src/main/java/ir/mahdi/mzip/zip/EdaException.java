@@ -1,4 +1,4 @@
-package kr.co.edacom.loveagestory.common;
+package ir.mahdi.mzip.zip;
 
 /**
  * 커스텀 Exception 클래스

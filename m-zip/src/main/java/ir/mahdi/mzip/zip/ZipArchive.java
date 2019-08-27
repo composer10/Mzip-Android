@@ -1,11 +1,12 @@
 package ir.mahdi.mzip.zip;
 import net.lingala.zip4j.core.ZipFile;
+import net.lingala.zip4j.exception.ZipException;
 import net.lingala.zip4j.model.ZipParameters;
 import net.lingala.zip4j.util.Zip4jConstants;
 
 import java.io.File;
 
-import ir.mahdi.mzip.zip.*;
+import ir.mahdi.mzip.zip.EdaException;
 
 /**
  * Created by Mahdi on 8/29/2017.
