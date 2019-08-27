@@ -36,16 +36,11 @@ public class ZipArchive {
             e.printStackTrace();
         }
     }
-    public static void unzip(String targetZipFilePath, String destinationFolderPath, String password) {
-        try {
+    public static void unzip(String targetZipFilePath, String destinationFolderPath, String password) throws Exception {
             ZipFile zipFile = new ZipFile(targetZipFilePath);
             if (zipFile.isEncrypted()) {
                 zipFile.setPassword(password);
             }
             zipFile.extractAll(destinationFolderPath);
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 }
